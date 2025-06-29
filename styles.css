@@ -1,0 +1,72 @@
+body {
+    background-color: #0D1117;
+    color: #C9D1D9;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #58A6FF;
+}
+
+a:hover {
+    color: #6E9EEF;
+    text-decoration: underline;
+}
+
+.container,
+.container-fluid {
+    background-color: #161B22;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    background-color: #161B22;
+    border-bottom: 1px solid #30363D;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #C9D1D9 !important;
+}
+
+.navbar-toggler {
+    border-color: #30363D;
+}
+
+.nav-link:hover {
+    color: #58A6FF !important;
+}
+
+.btn-primary {
+    background-color: #238636;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2EA045;
+}
+
+.card {
+    background-color: #161B22;
+    border: none;
+}
+
+.card-body {
+    color: #C9D1D9;
+}
+
+.form-control {
+    background-color: #0D1117;
+    color: #C9D1D9;
+    border: 1px solid #30363D;
+}
+
+.form-control:focus {
+    background-color: #0D1117;
+    color: #C9D1D9;
+    border-color: #58A6FF;
+    box-shadow: 0 0 0 0.2rem rgba(88, 166, 255, 0.25);
+}
