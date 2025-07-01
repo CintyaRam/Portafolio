@@ -29,7 +29,7 @@ Este es mi **portafolio personal**, creado con HTML, CSS y JavaScript. Está dis
 
 ## 📁 Estructura del proyecto
  
- Portafolio/
+Portafolio/
     index.html # Página principal
     sobremi.html # Información personal
     proyectos.html # Lista de proyectos
@@ -37,7 +37,7 @@ Este es mi **portafolio personal**, creado con HTML, CSS y JavaScript. Está dis
     contacto.html # Formulario de contacto
     styles.css # Css
     script.js # Javascript
-    README.md # Este archivo
+R   EADME.md # Este archivo
 
 
 ---
