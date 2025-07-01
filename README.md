@@ -29,15 +29,17 @@ Este es mi **portafolio personal**, creado con HTML, CSS y JavaScript. Está dis
 
 ## 📁 Estructura del proyecto
  
-Portafolio/
-    index.html # Página principal
-    sobremi.html # Información personal
-    proyectos.html # Lista de proyectos
-    habilidades.html # Habilidades técnicas y blandas
-    contacto.html # Formulario de contacto
-    styles.css # Css
-    script.js # Javascript
-R   EADME.md # Este archivo
+| Archivo/Carpeta | Descripción |
+|------------------|-------------|
+| **Portafolio/**  | Carpeta raíz del proyecto |
+| `index.html`     | Página principal del portafolio |
+| `sobremi.html`   | Información personal |
+| `proyectos.html` | Lista de proyectos realizados |
+| `habilidades.html` | Habilidades técnicas y blandas |
+| `contacto.html`  | Formulario de contacto |
+| `styles.css`     | Hojas de estilo CSS |
+| `script.js`      | Archivos JavaScript |
+| `README.md`      | Este archivo |
 
 
 ---
