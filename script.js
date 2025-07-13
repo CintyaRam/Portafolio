@@ -11,7 +11,7 @@ $(document).ready(function () {
         // Limpiar mensajes anteriores
         mensajeDiv.removeClass('d-block alert-success alert-danger')
             .addClass('d-none')
-            .removeClass('show'); // Elimina clase 'show' si existe
+            .removeClass('show');
         mensajeTexto.text('');
 
         // Validar campos
@@ -45,21 +45,12 @@ $(document).ready(function () {
             $.ajax({
                 url: $('#contactForm').attr('action'),
                 method: $('#contactForm').attr('method'),
-                data: $('#contactForm').serialize(), // ✅ Aquí estaba el error
+                data: $('#contactForm').serialize(),
                 dataType: 'json',
             })
                 .done(function (response) {
                     console.log("✅ Enviado correctamente", response);
-
-                    mensajeTexto.text('Gracias por tu mensaje. Me pondré en contacto contigo pronto.');
-                    mensajeDiv.removeClass('alert-danger').addClass('alert-success d-block');
-
-                    $('#contactForm')[0].reset();
-
-                    setTimeout(() => {
-                        mensajeDiv.removeClass('d-block alert-success');
-                        mensajeTexto.text('');
-                    }, 5000);
+                    window.location.href = "gracias.html";
                 })
                 .fail(function (jqXHR, textStatus, errorThrown) {
                     console.error("❌ Error al enviar:", textStatus, errorThrown);
