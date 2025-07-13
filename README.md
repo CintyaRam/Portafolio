@@ -1,6 +1,6 @@
 # 🛡️ Portafolio Personal – Cintya Ramírez
 
-> 📌 Proyecto realizado por **Cintya Ramírez** como presentación profesional de habilidades en desarrollo web y ciberseguridad.
+> 📌 Proyecto realizado por **Cintya Ramírez** como presentación profesional de habilidades en desarrollo web, desarrollo de apps móviles y ciberseguridad.
 
 Este es mi **portafolio personal**, creado con HTML, CSS y JavaScript. Está diseñado con un estilo oscuro tipo GitHub, ideal para mostrar mis proyectos, habilidades y experiencia a posibles empleadores o colaboradores.
 
