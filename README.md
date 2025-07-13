@@ -20,7 +20,8 @@ Este es mi **portafolio personal**, creado con HTML, CSS y JavaScript. Está dis
 ## 🛠 Tecnologías utilizadas
 
 - **HTML5**
-- **CSS3** (con Bootstrap 5)
+- **CSS3**
+- **Bootstrap**
 - **JavaScript / jQuery**
 - **Responsive Design**
 - **GitHub Pages** (para despliegue)
@@ -37,6 +38,7 @@ Este es mi **portafolio personal**, creado con HTML, CSS y JavaScript. Está dis
 | `proyectos.html` | Lista de proyectos realizados |
 | `habilidades.html` | Habilidades técnicas y blandas |
 | `contacto.html`  | Formulario de contacto |
+| `gracias.html`  | HTML de agradecimiento |
 | `styles.css`     | Hojas de estilo CSS |
 | `script.js`      | Archivos JavaScript |
 | `README.md`      | Este archivo |
