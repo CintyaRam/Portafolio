@@ -1,19 +1,20 @@
-# 🛡️ Portafolio Personal – Cintya Ramírez
+# 🟩 Portafolio Profesional – Cintya Ramírez
 
-> 📌 Proyecto realizado por **Cintya Ramírez** como presentación profesional de habilidades en desarrollo web, desarrollo de apps móviles y ciberseguridad.
+Bienvenido a mi portafolio profesional. Aquí presento mis habilidades, proyectos y experiencia en desarrollo web y software, con un enfoque en **Python Fullstack**, Django, bases de datos y JavaScript.
 
-Este es mi **portafolio personal**, creado con HTML, CSS y JavaScript. Está diseñado con un estilo oscuro tipo GitHub, ideal para mostrar mis proyectos, habilidades y experiencia a posibles empleadores o colaboradores.
+Este sitio está construido desde cero utilizando **HTML, CSS y JavaScript**, con un diseño moderno estilo **dark Matrix**, inspirado en interfaces dinámicas y minimalistas para destacar mis proyectos de manera clara y atractiva.
 
 ---
 
 ## 🧩 Características principales
 
-- ✅ Diseño moderno y limpio con estilo oscuro (similar a GitHub).
-- 🧠 Secciones organizadas: Sobre Mí, Proyectos, Habilidades, Contacto.
-- 📱 Totalmente responsivo (se ve bien en móviles, tablets y escritorio).
-- 🚀 Listo para ser publicado en GitHub Pages.
-- 💻 Código limpio y modularizado.
-- 📬 Formulario de contacto con validación en jQuery.
+- 🎨 **Diseño moderno estilo Matrix verde**  
+- 📌 Secciones completas: Inicio, Sobre mí, Habilidades, Proyectos y Contacto  
+- ⚡ Animaciones personalizadas (typewriter, hover neon, scroll suave)  
+- 📱 **100% responsivo** para móviles, tablet y escritorio  
+- 📬 Formulario de contacto integrado con Formspree  
+- 🚀 **Listo para publicación** en GitHub Pages  
+- 🧹 Código modular, limpio y fácil de mantener  
 
 ---
 
@@ -21,44 +22,59 @@ Este es mi **portafolio personal**, creado con HTML, CSS y JavaScript. Está dis
 
 - **HTML5**
 - **CSS3**
-- **Bootstrap**
-- **JavaScript / jQuery**
-- **Responsive Design**
-- **GitHub Pages** (para despliegue)
+- **JavaScript (ES6)**
+- **Django / Python** (para mis proyectos backend)
+- **MySQL / SQL Server**
+- **Git & GitHub Pages**
 
 ---
 
 ## 📁 Estructura del proyecto
- 
+
 | Archivo/Carpeta | Descripción |
-|------------------|-------------|
-| **Portafolio/**  | Carpeta raíz del proyecto |
-| `index.html`     | Página principal del portafolio |
-| `sobremi.html`   | Información personal |
-| `proyectos.html` | Lista de proyectos realizados |
-| `habilidades.html` | Habilidades técnicas y blandas |
-| `contacto.html`  | Formulario de contacto |
-| `gracias.html`  | HTML de agradecimiento |
-| `styles.css`     | Hojas de estilo CSS |
-| `script.js`      | Archivos JavaScript |
-| `README.md`      | Este archivo |
-
+|-----------------|-------------|
+| `index.html` | Página principal del portafolio |
+| `styles.css` | Estilos principales (tema Matrix verde) |
+| `script.js` | Lógica JS (scroll, typewriter, formulario) |
+| `img/` | Imágenes del sitio (foto de perfil, recursos) |
+| `README.md` | Documentación del proyecto |
 
 ---
 
-## 🌐 Demo en vivo
+## 🚀 Demo en vivo
 
-👉 [Ver sitio en línea](https://CintyaRam.github.io/Portafolio )
+🔗 **Ver portafolio online:**  
+https://cintyaram.github.io/Portafolio/
 
----
-
-## 📢 Contribuciones
-
-¡Siéntete libre de usar el proyecto como base para crear el tuyo propio!
+🔗 **LinkedIn:**  
+https://www.linkedin.com/in/cintyaram/
 
 ---
 
-## ❤️ ¿Te gustó este proyecto?
+## 📚 Proyectos destacados incluidos
 
-- Deja una ⭐ si te sirvió o te ayudó a aprender.
-- ¡Sigue mi perfil para ver más proyectos como este!
+- **Gestión de Vencimientos** – Django + MySQL  
+  Sistema profesional para supermercados, con autenticación y panel admin.
+
+- **Pudú Orfebrería** – Frontend web  
+  Sitio vitrinas para emprendimiento de joyería con catálogo responsive.
+
+- **LautAdopción** – App móvil Android (Kotlin + Firebase)  
+  Plataforma prototipo para adopción de mascotas.
+
+---
+
+## ❤️ ¿Quieres usar este proyecto?
+
+Puedes utilizar este portafolio como plantilla para tus propios desarrollos.  
+Si te fue útil:
+
+- 🌟 ¡Déjame una estrella en GitHub!
+- 🤝 Contáctame para colaboraciones o proyectos.
+
+---
+
+## 👩‍💻 Autor
+
+Desarrollado por **Cintya Ramírez**  
+Fullstack Python · Django · SQL · JavaScript  

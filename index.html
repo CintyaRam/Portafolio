@@ -1,124 +1,259 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cintya Ramírez - Portafolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <title>Cintya Ramírez – Portafolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Cintya Ramírez</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="sobremi.html">Sobre mí</a></li>
-                    <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="habilidades.html">Habilidades</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                </ul>
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="avatar">
+                <img src="img/foto_perfil.jpeg" alt="Foto de Cintya" class="avatar-img" />
             </div>
-        </div>
-    </nav>
+            <h1 class="name">Cintya Ramírez</h1>
+            <p class="role">Analista Programadora</p>
 
-    <!-- Hero Section -->
-    <section class="hero text-center py-5">
-        <div class="container">
-            <h1 class="display-4">Hola 👋 Soy Cintya Ramírez</h1>
-            <p class="lead">Analista Programador apasionada por la programación y la inteligencia artificial.</p>
-            <a href="proyectos.html" class="btn btn-primary mt-3">Ver mis proyectos</a>
-        </div>
-    </section>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
 
-    <!-- Sección destacada -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="mb-4">Algunos de mis logros:</h2>
-            <div class="row">
-                <!-- Proyecto Principal -->
-                <div class="card mb-4 bg-dark text-white border-secondary">
-                    <div class="card-body">
-                        <h3 class="card-title">Gestión Vencimientos - Proyecto Final Django</h3>
-                        <p class="card-text">Aplicación web desarrollada en Django 5, diseñada para gestionar artículos y sus lotes, mostrando alertas sobre productos vencidos, por vencer o en buen estado, con control de acceso por usuarios y administración avanzada.</p>
-                        <a href="https://github.com/CintyaRam/gestion_vencimientos" target="_blank"
-                            class="btn btn-primary me-2">Ver en GitHub</a>
-                        <a href="https://gestion-vencimientos.onrender.com/" target="_blank" class="btn btn-primary">Ver
-                        Página Web</a>
+            <div class="sidebar-footer">
+                <a href="https://github.com/CintyaRam" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </aside>
+
+        <!-- CONTENIDO -->
+        <main class="content">
+
+            <!-- HERO -->
+            <section id="inicio" class="section hero-section">
+                <div class="hero-bg"></div>
+                <div class="hero-content">
+                    <p class="hero-tag">Desarrollo · Web · IA</p>
+                    <h2 class="hero-title">Hola, soy <span>Cintya</span></h2>
+                    <p class="hero-subtitle">Desarrolladora con experiencia en Python, Django, SQL y JavaScript.</p>
+
+                    <p class="hero-dynamic" id="hero-dynamic"></p>
+
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn primary-btn">Ver proyectos</a>
+                        <a href="#contacto" class="btn ghost-btn">Contáctame</a>
                     </div>
                 </div>
-                <!-- Proyecto 1 -->
-                <div class="card mb-4 bg-dark text-white border-secondary">
-                    <div class="card-body">
-                        <h3 class="card-title">Ciberseguridad - Sitio Educativo</h3>
-                        <p class="card-text">Un sitio informativo sobre amenazas comunes, consejos de seguridad y
-                            ejemplos reales de ataques.</p>
-                        <a href="https://github.com/CintyaRam/ciberseguridad" target="_blank"
-                            class="btn btn-primary me-2">Ver en GitHub</a>
-                        <a href="https://cintyaram.github.io/ciberseguridad/" target="_blank" class="btn btn-primary">Ver
-                        Página Web</a>
-                    </div>
-                </div>
-                <!-- Proyecto 2 -->
-                <div class="card mb-4 bg-dark text-white border-secondary">
-                    <div class="card-body">
-                        <h3 class="card-title">LautAdoción - App móvil de adopción de Mascotas</h3>
-                        <p class="card-text">Aplicación Móvil para realizar publicación para adopciones de Mascotas. En
-                            desarrollo de más funcionalidades.</p>
-                        <a href="https://github.com/CintyaRam/LautAdopcion" target="_blank" class="btn btn-primary">Ver
-                            en GitHub</a>
-                    </div>
-                </div>
-                <!-- Proyecto 3 -->
-                <div class="card mb-4 bg-dark text-white border-secondary">
-                    <div class="card-body">
-                        <h3 class="card-title">Pudu Orfebrería - Página Web de proyecto personal de Orfebrería</h3>
-                        <p class="card-text">Sitio web para Pudu Orfebrería, especializada en joyería artesanal y diseño
-                            único.
+            </section>
+
+            <!-- SOBRE MI -->
+            <section id="sobre-mi" class="section">
+                <h3 class="section-title">Sobre mí</h3>
+                <div class="section-line"></div>
+
+                <div class="grid-2">
+                    <div>
                         <p>
-                            <a href="https://github.com/CintyaRam/PuduOrfebreria" target="_blank"
-                                class="btn btn-primary me-2">Ver en GitHub</a>
-                            <a href="https://cintyaram.github.io/PuduOrfebreria/" target="_blank" class="btn btn-primary">Ver
-                        Página Web</a>
+                            Soy <strong>Analista Programadora</strong>, apasionada por crear soluciones tecnológicas
+                            que resuelvan problemas reales mediante el desarrollo web, bases de datos e inteligencia
+                            artificial.
+                        </p>
+                        <p>
+                            Trabajo con <strong>Python, Django, SQL, HTML, CSS y JavaScript</strong>. Me encanta
+                            aprender y mejorar
+                            constantemente mis proyectos personales y académicos.
+                        </p>
+                    </div>
+
+                    <div>
+                        <ul class="info-list">
+                            <li><span>Rol:</span> Desarrolladora web fullstack junior</li>
+                            <li><span>Stack:</span> Python, Django, SQL, JS, Bootstrap</li>
+                            <li><span>Ubicación:</span> Chile</li>
+                            <li><span>Objetivo:</span> Especializarme en IA aplicada al desarrollo</li>
+                        </ul>
                     </div>
                 </div>
-                <!-- Proyecto 4 -->
-                <div class="card mb-4 bg-dark text-white border-secondary">
-                    <div class="card-body">
-                        <h3 class="card-title">Competencias Tecnológicas</h3>
-                        <p class="card-text">Repositorio de archivos separados por carpetas con las distintas
-                            competencias tecnológicas en aprendizaje, en construcción. Actualmente con apartado Python, SQL y Django
-                        <p>
-                            <a href="https://github.com/CintyaRam/CompetenciasTecnologias" target="_blank"
-                                class="btn btn-primary">Ver
-                                en GitHub</a>
+            </section>
+
+            <!-- HABILIDADES -->
+            <div class="skills-grid">
+
+                <div class="skill-block">
+                    <h4>Backend (Python)</h4>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>REST API</span>
+                        <span>MySQL</span>
+                        <span>SQL Server</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-block">
+                    <h4>Frontend</h4>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                        <span>jQuery</span>
+                    </div>
+                </div>
+
+                <div class="skill-block">
+                    <h4>Herramientas & Frameworks</h4>
+                    <div class="tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                        <span>Render</span>
+                        <span>Android Studio</span>
+                        <span>Kotlin</span>
+                        <span>Firebase</span>
+                        <span>Glide</span>
+                        <span>Constraint Layout</span>
+                    </div>
+                </div>
+
+                <div class="skill-block">
+                    <h4>Soft Skills</h4>
+                    <div class="tags">
+                        <span>Trabajo en equipo</span>
+                        <span>Comunicación</span>
+                        <span>Resolución de problemas</span>
+                        <span>Autogestión</span>
+                        <span>Liderazgo</span>
+                        <span>Metodología SCRUM</span>
+                        <span>Diseño UI/UX</span>
+                        <span>Gestión de proyectos</span>
+                        <span>Testing de software</span>
+                        <span>Integración de APIs</span>
                     </div>
                 </div>
 
             </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="text-center py-4">
-        <p>© 2025 Cintya Ramírez · Hecho con ❤️ y código abierto</p>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+            <!-- PROYECTOS -->
+            <section id="proyectos" class="section">
+                <h3 class="section-title">Proyectos</h3>
+                <div class="section-line"></div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <h4>Gestión Vencimientos</h4>
+                        <p class="project-tag">Django · MySQL</p>
+                        <p class="project-desc">
+                            Sistema para gestionar artículos, fechas de vencimiento y estados (OK, por vencer, vencido).
+                            Incluye autenticación, panel admin y reportes.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/CintyaRam/gestion_vencimientos" target="_blank">GitHub</a>
+                            <a href="https://gestion-vencimientos.onrender.com/" target="_blank">Demo</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h4>LautAdopción</h4>
+                        <p class="project-tag">Kotlin · Firebase</p>
+                        <p class="project-desc">
+                            Prototipo de app móvil para adopción de mascotas.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/CintyaRam/LautAdopcion" target="_blank">GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h4>Pudú Orfebrería</h4>
+                        <p class="project-tag">Bootstrap · jQuery</p>
+                        <p class="project-desc">
+                            Sitio web para un emprendimiento de joyería artesanal con catálogo, carrusel e imágenes
+                            responsivas.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/CintyaRam/PuduOrfebreria" target="_blank">GitHub</a>
+                            <a href="https://cintyaram.github.io/PuduOrfebreria/" target="_blank">Demo</a>
+                        </div>
+                    </article>
+
+
+                </div>
+            </section>
+
+            <!-- CONTACTO (FORMULARIO REAL) -->
+            <section id="contacto" class="section">
+                <h3 class="section-title">Contacto</h3>
+                <div class="section-line"></div>
+
+                <div id="mensajeFormulario" class="form-alert hidden">
+                    <span id="mensajeTexto"></span>
+                    <button onclick="cerrarAlerta()" class="close-alert">&times;</button>
+                </div>
+
+                <div class="contact-grid">
+                    <div>
+                        <p>
+                            Si quieres trabajar conmigo, colaborar o necesitas apoyo en un proyecto,
+                            puedes escribirme directamente.
+                        </p>
+                        <ul class="info-list">
+                            <li><span>Email:</span> cintya.ramirezbarriga@gmail.com</li>
+                            <li><span>GitHub:</span> github.com/CintyaRam</li>
+                            <li><span>Portafolio:</span> cintyaram.github.io/Portafolio</li>
+                        </ul>
+                    </div>
+
+                    <form id="contactForm" action="https://formspree.io/f/mdkdnzvd" method="POST" class="contact-form">
+                        <label>Nombre</label>
+                        <input type="text" name="nombre" required />
+
+                        <label>Correo electrónico</label>
+                        <input type="email" name="correo" required />
+
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" rows="5" required></textarea>
+
+                        <button type="submit" class="btn primary-btn full-width">Enviar mensaje</button>
+                    </form>
+                </div>
+            </section>
+
+            <footer class="footer">
+                © 2025 Cintya Ramírez - Portafolio Profesional
+            </footer>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
