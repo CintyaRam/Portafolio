@@ -5,12 +5,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cintya Ramírez – Portafolio</title>
+
+    <!-- CSS LOCAL -->
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
+        rel="stylesheet">
 </head>
 
 <body>
@@ -25,8 +32,9 @@
         <!-- SIDEBAR -->
         <aside class="sidebar">
             <div class="avatar">
-                <img src="img/foto_perfil.jpeg" alt="Foto de Cintya" class="avatar-img" />
+                <img src="img/foto_perfil.jpeg" alt="Foto de Cintya" class="avatar-img">
             </div>
+
             <h1 class="name">Cintya Ramírez</h1>
             <p class="role">Analista Programadora</p>
 
@@ -39,11 +47,10 @@
             </ul>
 
             <div class="sidebar-footer">
-                <a href="https://github.com/CintyaRam" target="_blank" aria-label="GitHub">
+                <a href="https://github.com/CintyaRam" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-
-                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/cintyaram/" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
@@ -56,9 +63,16 @@
             <section id="inicio" class="section hero-section">
                 <div class="hero-bg"></div>
                 <div class="hero-content">
+
                     <p class="hero-tag">Desarrollo · Web · IA</p>
-                    <h2 class="hero-title">Hola, soy <span>Cintya</span></h2>
-                    <p class="hero-subtitle">Desarrolladora con experiencia en Python, Django, SQL y JavaScript.</p>
+
+                    <h2 class="hero-title">
+                        Hola, soy <span>Cintya</span>
+                    </h2>
+
+                    <p class="hero-subtitle">
+                        Desarrolladora con experiencia en Python, Django, SQL y JavaScript.
+                    </p>
 
                     <p class="hero-dynamic" id="hero-dynamic"></p>
 
@@ -77,88 +91,63 @@
                 <div class="grid-2">
                     <div>
                         <p>
-                            Soy <strong>Analista Programadora</strong>, apasionada por crear soluciones tecnológicas
-                            que resuelvan problemas reales mediante el desarrollo web, bases de datos e inteligencia
-                            artificial.
+                            Soy <strong>Analista Programadora</strong>, apasionada por crear soluciones tecnológicas.
                         </p>
                         <p>
-                            Trabajo con <strong>Python, Django, SQL, HTML, CSS y JavaScript</strong>. Me encanta
-                            aprender y mejorar
-                            constantemente mis proyectos personales y académicos.
+                            Manejo <strong>Python, Django, SQL, HTML, CSS y JavaScript</strong>.
                         </p>
                     </div>
 
                     <div>
                         <ul class="info-list">
-                            <li><span>Rol:</span> Desarrolladora web fullstack junior</li>
-                            <li><span>Stack:</span> Python, Django, SQL, JS, Bootstrap</li>
+                            <li><span>Rol:</span> Fullstack Python Junior</li>
+                            <li><span>Stack:</span> Django, SQL, JavaScript</li>
                             <li><span>Ubicación:</span> Chile</li>
-                            <li><span>Objetivo:</span> Especializarme en IA aplicada al desarrollo</li>
+                            <li><span>Objetivo:</span> Especializarme en IA aplicada</li>
                         </ul>
                     </div>
                 </div>
             </section>
 
             <!-- HABILIDADES -->
-            <div class="skills-grid">
+            <section id="skills" class="section">
+                <h3 class="section-title">Habilidades</h3>
+                <div class="section-line"></div>
 
-                <div class="skill-block">
-                    <h4>Backend (Python)</h4>
-                    <div class="tags">
-                        <span>Python</span>
-                        <span>Django</span>
-                        <span>REST API</span>
-                        <span>MySQL</span>
-                        <span>SQL Server</span>
-                        <span>SQL</span>
+                <div class="skills-grid">
+
+                    <div class="skill-block">
+                        <h4>Backend – Foco principal</h4>
+                        <div class="tags">
+                            <span>Python</span><span>Django</span><span>REST API</span>
+                            <span>MySQL</span><span>SQL Server</span><span>Autenticación</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="skill-block">
-                    <h4>Frontend</h4>
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Bootstrap</span>
-                        <span>jQuery</span>
+                    <div class="skill-block">
+                        <h4>Frontend</h4>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="skill-block">
-                    <h4>Herramientas & Frameworks</h4>
-                    <div class="tags">
-                        <span>Git</span>
-                        <span>GitHub</span>
-                        <span>VS Code</span>
-                        <span>Render</span>
-                        <span>Android Studio</span>
-                        <span>Kotlin</span>
-                        <span>Firebase</span>
-                        <span>Glide</span>
-                        <span>Constraint Layout</span>
+                    <div class="skill-block">
+                        <h4>Herramientas</h4>
+                        <div class="tags">
+                            <span>Git</span><span>GitHub</span><span>VS Code</span><span>Render</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="skill-block">
-                    <h4>Soft Skills</h4>
-                    <div class="tags">
-                        <span>Trabajo en equipo</span>
-                        <span>Comunicación</span>
-                        <span>Resolución de problemas</span>
-                        <span>Autogestión</span>
-                        <span>Liderazgo</span>
-                        <span>Metodología SCRUM</span>
-                        <span>Diseño UI/UX</span>
-                        <span>Gestión de proyectos</span>
-                        <span>Testing de software</span>
-                        <span>Integración de APIs</span>
+                    <div class="skill-block">
+                        <h4>Soft Skills</h4>
+                        <div class="tags">
+                            <span>Comunicación</span><span>Trabajo en equipo</span><span>Sprint</span>
+                            <span>Scrum</span><span>Liderazgo</span>
+                        </div>
                     </div>
+
                 </div>
-
-            </div>
-
-
+            </section>
 
             <!-- PROYECTOS -->
             <section id="proyectos" class="section">
@@ -171,12 +160,13 @@
                         <h4>Gestión Vencimientos</h4>
                         <p class="project-tag">Django · MySQL</p>
                         <p class="project-desc">
-                            Sistema para gestionar artículos, fechas de vencimiento y estados (OK, por vencer, vencido).
-                            Incluye autenticación, panel admin y reportes.
+                            Sistema para gestionar artículos y fechas de vencimiento.
                         </p>
                         <div class="project-links">
-                            <a href="https://github.com/CintyaRam/gestion_vencimientos" target="_blank">GitHub</a>
-                            <a href="https://gestion-vencimientos.onrender.com/" target="_blank">Demo</a>
+                            <a href="https://github.com/CintyaRam/gestion_vencimientos"
+                                target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://gestion-vencimientos.onrender.com/"
+                                target="_blank"><i class="fas fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </article>
 
@@ -184,10 +174,11 @@
                         <h4>LautAdopción</h4>
                         <p class="project-tag">Kotlin · Firebase</p>
                         <p class="project-desc">
-                            Prototipo de app móvil para adopción de mascotas.
+                            App de adopción de mascotas.
                         </p>
                         <div class="project-links">
-                            <a href="https://github.com/CintyaRam/LautAdopcion" target="_blank">GitHub</a>
+                            <a href="https://github.com/CintyaRam/LautAdopcion"
+                                target="_blank"><i class="fab fa-github"></i></a>
                         </div>
                     </article>
 
@@ -195,43 +186,41 @@
                         <h4>Pudú Orfebrería</h4>
                         <p class="project-tag">Bootstrap · jQuery</p>
                         <p class="project-desc">
-                            Sitio web para un emprendimiento de joyería artesanal con catálogo, carrusel e imágenes
-                            responsivas.
+                            Sitio web para joyería artesanal.
                         </p>
                         <div class="project-links">
-                            <a href="https://github.com/CintyaRam/PuduOrfebreria" target="_blank">GitHub</a>
-                            <a href="https://cintyaram.github.io/PuduOrfebreria/" target="_blank">Demo</a>
+                            <a href="https://github.com/CintyaRam/PuduOrfebreria"
+                                target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://cintyaram.github.io/PuduOrfebreria/"
+                                target="_blank"><i class="fas fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </article>
-
 
                 </div>
             </section>
 
-            <!-- CONTACTO (FORMULARIO REAL) -->
+            <!-- CONTACTO -->
             <section id="contacto" class="section">
                 <h3 class="section-title">Contacto</h3>
                 <div class="section-line"></div>
 
-                <div id="mensajeFormulario" class="form-alert hidden">
-                    <span id="mensajeTexto"></span>
-                    <button onclick="cerrarAlerta()" class="close-alert">&times;</button>
-                </div>
-
                 <div class="contact-grid">
                     <div>
                         <p>
-                            Si quieres trabajar conmigo, colaborar o necesitas apoyo en un proyecto,
-                            puedes escribirme directamente.
+                            Si deseas trabajar conmigo, escríbeme directo.
                         </p>
                         <ul class="info-list">
                             <li><span>Email:</span> cintya.ramirezbarriga@gmail.com</li>
                             <li><span>GitHub:</span> github.com/CintyaRam</li>
-                            <li><span>Portafolio:</span> cintyaram.github.io/Portafolio</li>
+                            <li><span>LinkedIn:</span> linkedin.com/in/cintyaram</li>
                         </ul>
                     </div>
 
-                    <form id="contactForm" action="https://formspree.io/f/mdkdnzvd" method="POST" class="contact-form">
+                    <form id="contactForm"
+                        action="https://formspree.io/f/mdkdnzvd"
+                        method="POST"
+                        class="contact-form">
+
                         <label>Nombre</label>
                         <input type="text" name="nombre" required />
 
@@ -253,7 +242,9 @@
         </main>
     </div>
 
+    <!-- JS LOCAL -->
     <script src="script.js"></script>
+
 </body>
 
 </html>
