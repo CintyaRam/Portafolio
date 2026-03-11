@@ -44,7 +44,7 @@ Este sitio está construido desde cero utilizando **HTML, CSS y JavaScript**, co
 ## 🚀 Demo en vivo
 
 🔗 **Ver portafolio online:**  
-https://cintyaram.github.io/Portafolio/
+https://cintyaram.cl/
 
 🔗 **LinkedIn:**  
 https://www.linkedin.com/in/cintyaram/
@@ -52,6 +52,9 @@ https://www.linkedin.com/in/cintyaram/
 ---
 
 ## 📚 Proyectos destacados incluidos
+
+- **Sitio Web Raíces del Sol** – FullStack Python + Django + MySQL  
+  Sistema profesional Sitio web desarrollado para la sociedad agrícola Raíces del Sol, dedicado a la comercialización de hortalizas en Chile. 
 
 - **Gestión de Vencimientos** – Django + MySQL  
   Sistema profesional para supermercados, con autenticación y panel admin.
